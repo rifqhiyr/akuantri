@@ -1,314 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <div class="container">
-        <nav class="navi">
-            <div class="flex-container">
-                <div class="logo pad-t12 pad-l10">
-                    <img src="image/logo.png" alt="logo" width="180">
-                </div>
-                <div class="fa-left pad-t25 pad-r30">
-                    <ul>
-                        <li class="active">
-                            <a href="#home">home</a>
-                        </li>
-                        <li class="active">
-                                <a href="#layanan">Layanan</a>
-                        </li>
-                        <li class="active">
-                                <a href="#faq">FAQ</a>
-                        </li>
-                        <li class="active">
-                                <a href="#blog">Blog</a>
-                        </li>
-                        <li class="btn-cta">
-                                <a href="#daftar">
-                                    <span>Daftar Liner</span>
-                                </a>
-                        </li>
-                    </ul>
-                </div>
+<html>
+    <head>
+        <title>Akuantri project</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="kontainerflex muka">
+            <div style="flex-grow: 1">
+                <img src="image/logo.png" alt="akuantri-logo" />
             </div>
-        </nav>
-        <div class="nav-dist"></div>
-        <div class="cover" style="background-image: url('image/home.jpg');"></div>
-        <div class="overlay"></div>
-        <div class="text-container">
-            <h1>
-                <strong>Akuantri Indonesia</strong>
-            </h1>
-            <p align="center" class="font-white">Kami sadar menunggu adalah hal yang membosankan, dan kami juga sadar akan ada banyak waktu terbuang <br>
-                begitu saja karna harus menunggu. Untuk itu, <b>Akuantri</b> hadir untuk membuat waktu berharga Anda<br>
-                tidak hilang begitu saja. Kami akan menggantikan antrian Anda, karna kami sadar bahwa <br><b>Waktu Anda sangat Berharga.</b>
+            <div style="flex-grow: 3"></div> 
+            <div style="flex-grow: 8" class="kontainerflex">
+                <ul>
+                    <li><a href="#page1" style="color:#4CAF50">Home</a></li>
+                    <li><a href="#page2">Layanan</a></li> 
+                    <li><a href="#page3">FAQ</a></li>
+                    <li><a href="https://akuantri.com/blog/">Blog</a></li>
+                    <li><a href="https://akuantri.com/about/">Tentang Kami</a></li>
+                    <li><a href="https://liner.akuantri.com/daftar/"><button class="button-daftar">Daftar Liner</button></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="muka1" id="page1">
+            <h1>Akuantri Indonesia</h1>
+            <p>
+                Kami sadar menunggu adalah hal yang membosankan, dan kami juga sadar akan ada banyak waktu terbuang
+                begitu saja karna harus menunggu. Untuk itu, Akuantri hadir untuk membuat waktu berharga Anda
+                tidak hilang begitu saja. Kami akan menggantikan antrian Anda, karna kami sadar bahwa
+                Waktu Anda sangat Berharga.
             </p>
-            <br>
-            <div class="col-md-6 middle top-2">
-                <div class="btn-gplay"><img src="image/gplaylogo.png" alt="download aplikasi"></div>
-                <div class="btn-pelajari"><img src="image/pelajarilogo.png" alt="pelajari Akuantri"></div>
+            
+            <div class="gplay-logo">
+                <div><img src="image/gplaylogo.png"alt="logo1" class="blackBox"/></div>
+                <button class="whiteBox"><b>PELAJARI &#8594;</b></button>
             </div>
+
         </div>
-
-        <div class="section">
-            <div class="flex-container flex-column">
-                <h1><span>Ber</span>"bagai Jenis Antrian</h1>
-                <h3>Jangan habiskan Waktu Anda Hanya untuk mengantri.</h3>
-                <div class="text-padding"></div>
-                <div class="row">
-                    <div class="half">
-                        <ul class="item">
-                            <li>"layanan Kesehatan"
-                                <span></span>
-                            </li>
-                            <li>"Berbagai Tiket box"
-                                <span></span>
-                            </li>
-                            <li>"Berbagai Restaurant"
-                                <span></span>
-                            </li>
-                            <li>"Salon Atau barbershop"
-                                <span></span>
-                            </li>
-                            <li>"Layanan pemerintah atau Bank"
-                                <span></span>
-                            </li>
-                            <li>"Jenis Antrian Lain"
-                                    <span>Antrian tidak masuk kategori? Ceritakan tentang jenis antrian Anda kepada kami.</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="half"><img src="image/gambarhp.png" alt="aplikasi akuantri"></div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="section-faq">
-            <div class="kontainer">
-                <div class="centering">
-                    <h1>frequently<span>Ask</span>Question</h1>
-                    <h3>Pertanyaan yang sering ditanyakan tentang akuAntri</h3>
-                </div>
-                <div class="row">
-
-                    <div class="acordion-kontainer right-1">
-                        <div class="acordion">
-                            <div class="acordion-head" id="acordionhead-1">
-                                <span class="icon">
-                                    <i class="ti-plus"></i>
-                                </span>
-                                <h3>Apa & siapa itu Liner Akuantri</h3>
-                            </div>
-                            <div class="acordion-content" id="acordioncontent-1">
-                                <p>"Mitra akuantri yang ada di lapangan untuk mengantri/menggantikan posisi antrian anda.</p>
-                            </div>
-                        </div>
-                        <div class="acordion">
-                            <div class="acordion-head" id="acordionhead-2">
-                                <span class="icon">
-                                    <i class="ti-plus"></i>
-                                </span>
-                                <h3>Jasa apa saja yang diberikan Akuantri</h3>
-                            </div>
-                            <div class="acordion-content" id="acordioncontent-2">
-                                <p> Jasa layanan tunggu dan Antrian diantaranya sebagai berikut:</p>
-                                <br>
-                                <ul>
-                                    <li>Jasa Antri restaurant meliputi Layanan tunggu pda antrian panjang atau lama, layanan pemesan Table.</li>
-                                    <li>Antrian dilokasi-lokasi layanan kesehatan seperti klinik, rumah Sakit, Rumah sakit bersalin, Bersalin, tempat terapi kesehatan dan sebagainya.</li>
-                                    <li>Antrian pada tempat-tempat atau acara hiburan seperti diloket pembelian tiket bioskop, tiket konser, tiket travel fair dan sebagainya.</li>
-                                    <li>Antrian lama di layanan kecantikan seperti salon ataupun Barbershop</li>
-                                    <li>Antrian ditempat kepengurusan pajak kendaraan juga instansi sejenis lainnya.</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="acordion">
-                            <div class="acordion-head" id="acordionhead-3"> 
-                                <span class="=icon">
-                                    <i class="ti-plus"></i>
-                                </span>
-                                <h3>Bagaimana cara pemesanan Liner Akuantri?</h3>
-                            </div>
-                            <div class="accordion-content" id="acordioncontent-3">
-                                <p>Sangat mudah, silahkan Download Aplikasi Akuantri di Google Play. Setelah itu klik Icon Antrian apa yang Anda butuhkan, isi data seperti lokasi antrian, kapan tanggal akan dilakukan antrian, Jam untuk mulai mengantri, pesan tambahan atau informasi tambahan tentang antrian Anda.</p>
-                                <p style="color:red">Catatan : Pemesanan Minimal 7 jam sebelum waktu antrian</p>
-                                <p>Konfirmasi pembayaran hanya dilakukan pada jam kerja Akuantri (09.00 - 17.00</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="acordion-kontainer left-1">   
-
-                        <div class="acordion">
-                            <div class="acordion-head" id="acordionhead-4">
-                                    <span class="icon">
-                                        <i class="ti-plus">
-                                        </i>
-                                    </span>
-                                    <h3>Bagaimana cara membayar layanan Akuantri?</h3>
-                            </div>
-                            <div class="acordion.content" id="acordioncontent-4"> 
-                                    <p>Setelah Anda berhasil melakukan Pesanan Antrian maka Anda akan menerima Email yang menjelaskan bagaimana cara pembayaran dan jumlah yang harus dibayar sesuai dengan estimasi Antrian yang Anda pesan. Jika waktu Antrian melebihi estimasi Antrian yang Anda pesan, maka akan berlaku tarif dasar dan pembayaran dilakukan secara langsung kepada Liner yang bertugas. </p>
-                            </div>   
-                        </div>
-
-                        <div class="acordion">
-                                <div class="acordion-head" id="acordionhead-5">
-                                        <span class="icon">
-                                            <i class="ti-plus">
-                                            </i>
-                                        </span>
-                                        <h3>Berapa tarif dasar layanan aku antri?</h3>
-                                 </div>
-                                    <div class="acordion.content" id="acordioncontent-5"> 
-                                        <p>Tarif dasar layanan kami adalah Rp. 2500 untuk setiap 5 menit.</p>
-                                        <p style="color: red">Untuk pemesanan durasi antrian 3 Jam atau lebih, maka tarif dasar kami adalah 50% dari total estimasi harga durasi antrian yang Anda pesan.</p>
-                                    </div>
-                                
-                        </div>
-
-                        <div class="acordion">
-                                <div class="acordion-head" id="acordionhead-6">
-                                        <span class="icon">
-                                            <i class="ti-plus">
-                                            </i>
-                                        </span>
-                                        <h3>Berapa jumlah Liner yangh dapat dipesan?</h3>
-                                </div>
-                                    <div class="acordion.content" id="acordioncontent-6">
-                                           <p> 1 Order via Aplikasi bisa melakukan pemesanan untuk lebih dari 1 Liner, dengan ketentuan 1 Liner hanya dapat melayani 1 Pelanggan atau 1 Antrian.</p>
-                                    </div> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section testimonial">
-            <div class="container">
-                <div class="centering">
-                    <h1>Test<span>imo</span>nial</h1>
-                    <h3>Mereka yang telah menghemat waktu untuk mengantri.</h3>
-                    <br>
-                </div>
-            </div>
-            <div class="Flex-container flex-center-around">
-                <div class="item"><img src="image/testipoto1.png" alt="layana jasa Antri"></div>
-                <div class="item"><img src="image/testipoto2.png" alt="layana jasa Antri"></div>
-                <div class="item"><img src="image/testipoto3.png" alt="layana jasa Antri"></div>
-            </div>
-        </div>
-        <div class="section blog">
-            <div class="container">
-                <div class="flex-container flex-center-around centering">
-                    <div class="item-blog">
-                        <span class="icon">
-                            <i class="ti-timer"></i>
-                        </span>
-                        <h3>Hemat Waktu Anda</h3>
-                        <br>
-                        <p>Bebaskan dan hemat waktu anda untuk Antri, Kami akan menggantikan posisi Antrian panjang Anda.</p>
-                    </div>
-                    <div class="item-blog">
-                        <span class="icon">
-                            <i class="ti-calendar"></i>
-                        </span>
-                        <h3>Pesan antrian Kapan saja</h3>
-                        <br>
-                        <p>Silahkan pesan antrian untuk sekarang, besok, minggu depan, kapan saja. Liner kami akan siap Antri untuk anda.</p>
-                    </div>
-                    <div class="item-blog">
-                        <span class="icon">
-                            <i class="ti-tiket"></i>
-                        </span>
-                        <h3>Berbagai Jenis antrian</h3>
-                        <p>Beragam jenis Antrian tinggal pesan seperti Antri BPJS, Imigrasi, Pembayaran pajak, dan Antrian lainya. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <footer id="footer">
-        <div class="container">
-            <div class="flex-container flex-around">
-                <div class="item-footer-1">
-                    <h3>Sekilas Akuantri</h3>
-                    <br>
-                    <p><a href="http://www.akuantri.com">Akuantri</a>
-                        adalah Aplikasi Layaan Jasa Antri yang akan menghemat waktu Anda dalam hal mengantri. Kami mempunyai jenis Antrian yang beragam. dengan 
-                        <a href="http://www.akuantri.com">Akuantri</a>
-                        anda bisa melakukan hal yang lebih penting, sementara antrian anda akan tetap berjalan.
+        <div class="kontainer" id="page2">
+        <div class="left">
+            <h1>&nbsp;&nbsp;&nbsp;&nbsp;<u>Ber</u>bagai Jenis Antrian</h1>
+            <h3 style="color:grey;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jangan habiskan waktu Anda untuk mengantri.</h3>
+            <ul style="margin-top:30px;list-style-type: none;" >
+                <li>
+                    <h3><span class="checkmark">&#10004;</span>&nbsp;&nbsp;&nbsp;Layanan Kesehatan</h3>
+                    <p class="paragraph">
+                        Antri di Rumah Sakit, Klinik, dan Layanan kesehatan lain kini
+                        bisa lebih menyenangkan.
                     </p>
-                </div>
-                <div class="item-footer-2">
-                    <h3>Links</h3>
-                    <br>
-                    <ul>
-                        <li><a href="#"></a> Tentang Kami</li>
-                        <li><a href="#"></a> Promo</li>
-                        <li><a href="#"></a> Karir</li>
-                        <li><a href="#"></a> Hubungi Kami</li>
-                        <li><a href="#"></a> Syarat & ketentuan</li>
+                </li>
+                <li>
+                    <h3><span class="checkmark">&#10004;</span>&nbsp;&nbsp;&nbsp;Berbagai Tiket Box</h3>
+                    <p class="paragraph">
+                        Tidak takut lagi kehabisan Tiket atau Diskon menarik dengan layanan Akuantri.
+                    </p>
+                </li>
+                <li>
+                    <h3><span class="checkmark">&#10004;</span>&nbsp;&nbsp;&nbsp;Berbagai Restaurant</h3>
+                    <p class="paragraph">
+                        Jangan lewatkan Diskon atau Opening Restaurant kesukaan Anda, Kami yang akan Antri.
+                    </p>
+                </li>
+                <li>
+                    <h3><span class="checkmark">&#10004;</span>&nbsp;&nbsp;&nbsp;Salon atau Barbershop</h3>
+                    <p class="paragraph">
+                        Kami yang akan menunggu giliran Anda di Salon atau Barbershop Kesayangan Anda.
+                    </p>
+                </li>
+                <li>
+                    <h3><span class="checkmark">&#10004;</span>&nbsp;&nbsp;&nbsp;Layanan Pemerintahan atau Bank</h3>
+                    <p class="paragraph">
+                        Tidak bisa datang pagi untuk Antri? Kami yang akan menggantikan Antrian Anda.
+                    </p>
+                </li>
+                <li>
+                    <h3><span class="checkmark">&#10004;</span>&nbsp;&nbsp;&nbsp;Jenis Antrian Lain</h3>
+                    <p class="paragraph">
+                        Antrian tidak masuk kaegori? Ceritakan tentang jenis Antrian Anda kepada kami.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="right"><img src="image/gambarhp.png" alt="hp"/></div>
+        </div>
+
+      <div class="header1" id="page3">
+            <h1>Frequently <u>Ask</u> Questions</h1>
+            <p>Pertanyaan yang Sering ditanyakan Tentang Akuantri.</p>
+        </div>
+        
+        <div class="kontainer1">
+            <div class="grid-item">
+                Apa & siapa itu Liner Akuantri<span style="float:right"><b></b>
+            </div>
+            <div class="grid-item">
+                Bagaimana cara membayar layanan Akuantri?<span style="float:right"><b>+</b></span>
+            </div>
+            <div class="grid-item">
+                Jasa apa saja yang diberikan Akuantri?<span style="float:right"><b>+</b></span>
+            </div>  
+            <div class="grid-item">
+                Berapa tarif dasar layanan Akuantri?<span style="float:right"><b>+</b></span>
+            </div>
+            <div class="grid-item">
+                Bagaimana cara pemesanan Liner Akuantri?<span style="float:right"><b>+</b></span>
+            </div>
+            <div class="grid-item">
+                Berapa jumlah Liner yang dapat dipesan?<span style="float:right"><b>+</b></span>
+            </div>
+        </div>
+        <div class="header2">
+            <h1>Test<u>imo</u>nial</h1>
+            <p>Mereka yang telah menghemat waktunya untuk mengantri.</p>
+        </div>
+        
+        <div class="kontainer2">
+            <div class="grid-item">
+                <img src="image/testipoto1.png" alt="gambarOrang1" />
+            </div>
+            <div class="grid-item">
+                <img src="image/testipoto2.png" alt="gambarOrang2" />
+            </div>
+            <div class="grid-item">
+                <img src="image/testipoto3.png" alt="gambarOrang2" />
+            </div>  
+        </div>
+        <div class="kontainer3">
+            <div class="grid-item1">
+                <img src="image/logo.png" alt="gambar1" />
+            </div>
+            <div class="grid-item1">
+                <img src="image/logo.png" alt="gambar1" />
+            </div>
+            <div class="grid-item1">
+                <img src="image/logo.png" alt="gambar1" />
+            </div>  
+        </div>
+        <div class="kontainer4">
+            <div class="grid-item2">
+                <p style="color:black"><b>SEKILAS AKUANTRI</b></p>
+                <p><span style="color:#4CAF50">Akuantri</span> adalah Aplikasi Layaan Jasa Antri yang akan menghemat waktu Anda 
+                    dalam hal mengantri. Kami mempunyai jenis Antrian yang beragam. 
+                    dengan <span style="color:#4CAF50">Akuantri</span> Anda bisa melakukan hal yang lebih penting, 
+                    sementara antrian Anda akan tetap berajalan. </p>
+                <p style="font-size: 12px;margin-top: 100px">© <span style="color:#4CAF50">PT Aku Antri Indonesia.</span> All Rights Reserved. Jasa Layanan Antri Indonesia - Akuantri</p>
+            </div>
+            <div class="grid-item2">
+                <p style="color:black"><b>LINKS</b></p>
+                    <ul class="list" style="color:#4CAF50">
+                        <li>Tentang Kami</li>
+                        <li>Promo</li>
+                        <li>Karir</li>
+                        <li>Hubungi Kami</li>
+                        <li>Syarat & Ketentuan</li>
                     </ul>
-                </div>
-                <div class="item-footer-3">
-                    <h3>Download Aplikasi</h3>
-                    <div class="btn-big">
-                        <a href="download"></a>
-                    </div>
-                </div>
             </div>
+            <div class="grid-item2">
+                <p style="color:black"><b>DOWNLOAD APLIKASI</b></p>
+                <img src="image/gplaylogo.png" style="height:50px" alt="logo1" />
+            </div>  
         </div>
-        <hr>
-        <div class="flex-container">
-            <div class="row copyrigth">
-                <div class="col-md-6">
-                    <p>
-                       <small class="block"> © <span><a href="#">PT. Akuantri Indonesia</a></span></small>
-                        <small class="block">Jasa Layanan Antri indonesia - Akuantri</small>
-                        <ul>
-                            <li><a href="http://www.twiter.com/AkuantriID"></a></li>
-                            <li><a href="http://www.facebook.com/AkuantriID"></a></li>
-                            <li><a href="http://www.youtube.com/channel/UCRv54xIoKp90p2UO5tDn4hA"></a></li>
-                            <li><a href="http://www.instagram.com/akuantri"></a></li>
-                            
-                        </ul>
-                        
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script>
-              $(document).ready(function(){
-            $("#acordhead-1").click(function(){
-                $("#acordcontent-1").slideToggle(200);
-            });
-            $("#acordhead-2").click(function(){
-                $("#acordcontent-2").slideToggle(200);
-            });
-            $("#acordhead-3").click(function(){
-                $("#acordcontent-3").slideToggle(200);
-            });
-            $("#acordhead-4").click(function(){
-                $("#acordcontent-4").slideToggle(200);
-            });
-            $("#acordhead-5").click(function(){
-                $("#acordcontent-5").slideToggle(200);
-            });
-            $("#acordhead-6").click(function(){
-                $("#acordcontent-6").slideToggle(200);
-            });
-        });
-    
-    </script>      
-
-
-</body>
+    </body>
 </html>
+
